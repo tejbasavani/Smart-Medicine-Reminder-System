@@ -1,0 +1,28 @@
+---
+
+### Working Principle
+
+The Smart Medicine Reminder System operates using a microcontroller-based control unit that manages time scheduling, user input, and output alerts. The system is designed to allow a caretaker to configure medication schedules and assist the patient through audio, visual, and communication alerts.
+
+Three push buttons are provided for the caretaker to configure the medicine schedule for the patient. Each button corresponds to one medication shift (for example: morning, afternoon, and night). Using these buttons, the caretaker can set or adjust the time at which the patient must take the medicine. The scheduling information is stored and continuously monitored by the microcontroller.
+
+A Real-Time Clock (RTC) module is used to maintain accurate time. The microcontroller continuously compares the current time from the RTC with the stored medication schedule. When the scheduled time matches, the system activates multiple alert mechanisms.
+
+First, a buzzer is triggered to generate an audible alert. Simultaneously, a voice playback module produces a recorded message reminding the patient to take the medicine. LED indicators are also activated to show the correct pill compartment so that the patient can easily identify which medicine to take.
+
+In the advanced version of the system, a load-cell-based weight sensor is used to detect whether the pill has been removed from the compartment. If the system detects that the medicine has not been taken within a certain time window, the GSM module sends a notification message to the caretaker or family member.
+
+Through the integration of microcontroller control, sensor feedback, communication modules, and user-friendly alerts, the system provides a reliable and assistive medication management solution for patients who require regular medication reminders.
+
+---
+
+### Main Components Used
+
+* Microcontroller (Arduino or similar)
+* Real Time Clock (RTC) module
+* GSM module
+* Voice playback module
+* Buzzer
+* Push buttons (for schedule setting)
+* LED indicators (pill slot indication)
+* Load cell weight sensor
