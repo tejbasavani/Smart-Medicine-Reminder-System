@@ -1,0 +1,33 @@
+Advanced version of the system.
+
+Added components:
+
+Weight sensor
+
+LED-based pill slot indicators
+
+GSM communication
+
+Voice alerts
+
+Functionality:
+
+Detect if medicine is removed using weight sensor
+
+Indicate correct pill slot using LED indicators
+
+Send reminder via GSM
+
+Provide voice guidance
+
+Example workflow:
+
+System triggers medicine schedule.
+
+Voice reminder announces medication.
+
+LED indicates correct pill compartment.
+
+Weight sensor verifies pill removal.
+
+GSM sends notification if medication is missed.
